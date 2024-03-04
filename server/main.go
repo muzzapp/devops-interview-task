@@ -6,8 +6,8 @@ import (
 	"os"
 	"os/signal"
 
-	"github.com/muzzapp/devops-interview-task/internal/handler"
-	"github.com/muzzapp/devops-interview-task/internal/muzz"
+	"github.com/muzzapp/devops-interview-task/pkg/muzz"
+	"github.com/muzzapp/devops-interview-task/server/internal/handler"
 	"google.golang.org/grpc"
 )
 

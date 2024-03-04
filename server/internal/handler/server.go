@@ -5,7 +5,7 @@ import (
 	"math/rand/v2"
 	"time"
 
-	"github.com/muzzapp/devops-interview-task/internal/muzz"
+	"github.com/muzzapp/devops-interview-task/pkg/muzz"
 )
 
 type Server struct {
