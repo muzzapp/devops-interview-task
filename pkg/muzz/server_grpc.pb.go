@@ -2,7 +2,7 @@
 // versions:
 // - protoc-gen-go-grpc v1.3.0
 // - protoc             v4.24.4
-// source: internal/muzz/server.proto
+// source: pkg/muzz/server.proto
 
 package muzz
 
@@ -105,5 +105,5 @@ var Service_ServiceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "internal/muzz/server.proto",
+	Metadata: "pkg/muzz/server.proto",
 }
